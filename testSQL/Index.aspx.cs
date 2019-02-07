@@ -17,7 +17,7 @@ namespace testSQL
 
         protected void btnName_Click(object sender, EventArgs e)
         {
-            string cntString = "Server=tcp:relevium-p2.database.windows.net,1433;Initial Catalog=relevium;Persist Security Info=False;User ID=relevium;Password=Pr0jectRelev1um;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            string cntString = "Server=tcp:relevium-p2.database.windows.net,1433;Initial Catalog=relevium;Persist Security Info=False;User ID=relevium;Password=<insert>;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             SqlConnection conn = new SqlConnection(cntString);
             try
             {
